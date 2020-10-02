@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.86669602.chunk.js",
+    "main.js.map": "/static/js/main.86669602.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.23041e79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.23041e79.js.map",
+    "static/js/2.22aff34d.chunk.js": "/static/js/2.22aff34d.chunk.js",
+    "static/js/2.22aff34d.chunk.js.map": "/static/js/2.22aff34d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2aed59ef77000b529b6733ddd6a2dbea.js": "/precache-manifest.2aed59ef77000b529b6733ddd6a2dbea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.22aff34d.chunk.js.LICENSE.txt": "/static/js/2.22aff34d.chunk.js.LICENSE.txt",
+    "static/media/1.jpeg": "/static/media/1.db9d42a8.jpeg",
+    "static/media/2.jpg": "/static/media/2.b6793510.jpg",
+    "static/media/3.jpg": "/static/media/3.945ba71e.jpg",
+    "static/media/chelsea.jpg": "/static/media/chelsea.06df1f5f.jpg",
+    "static/media/chelsea1.jpg": "/static/media/chelsea1.23b7c575.jpg",
+    "static/media/mutd.jpg": "/static/media/mutd.3dbd28e2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23041e79.js",
+    "static/js/2.22aff34d.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.86669602.chunk.js"
+  ]
+}
