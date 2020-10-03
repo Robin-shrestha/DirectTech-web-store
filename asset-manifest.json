@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DirectTech-web-store/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/DirectTech-web-store/static/js/main.c709545f.chunk.js",
-    "main.js.map": "/DirectTech-web-store/static/js/main.c709545f.chunk.js.map",
+    "main.js": "/DirectTech-web-store/static/js/main.16ad811f.chunk.js",
+    "main.js.map": "/DirectTech-web-store/static/js/main.16ad811f.chunk.js.map",
     "runtime-main.js": "/DirectTech-web-store/static/js/runtime-main.73933e9b.js",
     "runtime-main.js.map": "/DirectTech-web-store/static/js/runtime-main.73933e9b.js.map",
     "static/js/2.9c46e722.chunk.js": "/DirectTech-web-store/static/js/2.9c46e722.chunk.js",
     "static/js/2.9c46e722.chunk.js.map": "/DirectTech-web-store/static/js/2.9c46e722.chunk.js.map",
     "index.html": "/DirectTech-web-store/index.html",
-    "precache-manifest.d66cc5e476a6a7340a5a52549ab83c68.js": "/DirectTech-web-store/precache-manifest.d66cc5e476a6a7340a5a52549ab83c68.js",
+    "precache-manifest.253abc2027f5e22641a719fe87228042.js": "/DirectTech-web-store/precache-manifest.253abc2027f5e22641a719fe87228042.js",
     "service-worker.js": "/DirectTech-web-store/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/DirectTech-web-store/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.9c46e722.chunk.js.LICENSE.txt": "/DirectTech-web-store/static/js/2.9c46e722.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.73933e9b.js",
     "static/js/2.9c46e722.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c709545f.chunk.js"
+    "static/js/main.16ad811f.chunk.js"
   ]
 }
