@@ -4,7 +4,7 @@ import Home from "./components/home/Home";
 import Product from "./components/productPage/ProductDetailRoot";
 import Footer from "./components/footer/Footer";
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
         <Route exact path="/product/:id" component={Product} />
 
         <Route exact path="/" component={Home} />
-        <Route exact path="/DirectTech-web-store" component={Home} />
+        <Route exact path="/DirectTech-web-store">
+          <Redirect to="/" />
+        </Route>
       </Switch>
 
       <Footer />
