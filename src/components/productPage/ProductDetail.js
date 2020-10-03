@@ -42,29 +42,27 @@ const ImagePanel = (props) => {
       aria-labelledby={`scrollable-force-tab-${index}`}
       {...other}
     >
-      <CardActionArea>
-        <div
+      <div
+        style={{
+          height: "500px",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          background: "#fff",
+        }}
+      >
+        <img
+          src={image} //image name
+          alt={`cfc`} //alt name
           style={{
-            height: "500px",
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            background: "#fff",
+            objectFit: "contain",
+            maxWidth: "100%",
+            maxHeight: "100%",
+            margin: "0 auto",
+            backgroundColor: "white",
           }}
-        >
-          <img
-            src={image} //image name
-            alt={`cfc`} //alt name
-            style={{
-              objectFit: "contain",
-              maxWidth: "100%",
-              maxHeight: "100%",
-              margin: "0 auto",
-              backgroundColor: "white",
-            }}
-          />
-        </div>
-      </CardActionArea>
+        />
+      </div>
     </div>
   );
 };
