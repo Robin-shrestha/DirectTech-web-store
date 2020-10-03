@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cee8c4fb6bd38bea33d95754cd91bdc7",
+    "revision": "a4e501f4b3d090d19e1d540d3e43666a",
     "url": "/DirectTech-web-store/index.html"
   },
   {
-    "revision": "3e8b3821f1b763b797d4",
+    "revision": "445842d5634978925d84",
     "url": "/DirectTech-web-store/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DirectTech-web-store/static/js/2.9c46e722.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e8b3821f1b763b797d4",
-    "url": "/DirectTech-web-store/static/js/main.16ad811f.chunk.js"
+    "revision": "445842d5634978925d84",
+    "url": "/DirectTech-web-store/static/js/main.dcbb7231.chunk.js"
   },
   {
     "revision": "d4993b46a51ec30422b0",
