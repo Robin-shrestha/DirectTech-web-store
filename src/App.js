@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/DirectTech-web-store" component={Home} />
         <Route exact path="/product/:id" component={Product} />
       </Switch>
 
