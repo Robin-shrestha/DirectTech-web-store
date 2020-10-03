@@ -1,6 +1,6 @@
-import chelsea from "../../media/images/chelsea.jpg";
-import chelsea1 from "../../media/images/chelsea1.jpg";
-import mutd from "../../media/images/mutd.jpg";
+import chelsea from "../../../media/images/chelsea.jpg";
+import chelsea1 from "../../../media/images/chelsea1.jpg";
+import mutd from "../../../media/images/mutd.jpg";
 
 import { v4 as uuidv4 } from "uuid";
 

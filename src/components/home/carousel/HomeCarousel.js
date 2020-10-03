@@ -4,9 +4,9 @@ import Carousel from "react-material-ui-carousel";
 import { Paper, Button, CardMedia, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-import image1 from "../../media/images/1.jpeg";
-import image2 from "../../media/images/2.jpg";
-import image3 from "../../media/images/3.jpg";
+import image1 from "../../../media/images/1.jpeg";
+import image2 from "../../../media/images/2.jpg";
+import image3 from "../../../media/images/3.jpg";
 
 const styles = makeStyles((theme) => ({
   carousel: { marginBottom: theme.spacing(4) },

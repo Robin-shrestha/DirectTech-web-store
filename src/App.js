@@ -1,16 +1,20 @@
 import React from "react";
-import HomeCarousel from "./components/carousel/HomeCarousel";
 import Header from "./components/header/Header";
-import Featured from "./components/dashboard/Featured";
-import Products from "./components/dashboard/Products";
+import Home from "./components/home/Home";
+import Product from "./components/productPage/ProductDetailRoot";
 import Footer from "./components/footer/Footer";
+
+import { Switch, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <HomeCarousel />
-      <Featured />
-      <Products />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/product/:id" component={Product} />
+      </Switch>
+
       <Footer />
     </div>
   );

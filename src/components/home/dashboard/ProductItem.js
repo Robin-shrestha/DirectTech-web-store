@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Typography, Card, CardActionArea, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import chelsea from "../../media/images/chelsea.jpg";
+import chelsea from "../../../media/images/chelsea.jpg";
 
 const styles = makeStyles((theme) => ({
   productName: { paddingLeft: theme.spacing(3) },
@@ -42,15 +42,15 @@ const ProductItem = (props) => {
         >
           {item.productName}
         </Typography>
+        <Typography
+          variant="body2"
+          color="textSecondary"
+          className={classes.price}
+          gutterBottom
+        >
+          price: {item.price}
+        </Typography>
       </CardActionArea>
-      <Typography
-        variant="body2"
-        color="textSecondary"
-        className={classes.price}
-        gutterBottom
-      >
-        price: {item.price}
-      </Typography>
     </Card>
   );
 };

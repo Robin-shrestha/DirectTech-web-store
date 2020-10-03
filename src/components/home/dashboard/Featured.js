@@ -1,7 +1,8 @@
 import React from "react";
 import { Grid, Typography, Card, CardActionArea, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import chelsea from "../../media/images/chelsea.jpg";
+import chelsea from "../../../media/images/chelsea.jpg";
+import { Link as RouterLink } from "react-router-dom";
 
 const styles = makeStyles((theme) => ({
   root: { margin: theme.spacing(5, 0, 5, 0) },
@@ -52,7 +53,10 @@ const Featured = () => {
               return (
                 <Grid item key={item.id} xs={12} sm={6} md={4} lg={3}>
                   <Card raised>
-                    <CardActionArea>
+                    <CardActionArea
+                      component={RouterLink}
+                      to={`product/${item.id}`}
+                    >
                       <div
                         style={{
                           height: "200px",
@@ -82,15 +86,15 @@ const Featured = () => {
                       >
                         {item.productName}
                       </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        className={classes.price}
+                        gutterBottom
+                      >
+                        price: {item.price}
+                      </Typography>
                     </CardActionArea>
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      className={classes.price}
-                      gutterBottom
-                    >
-                      price: {item.price}
-                    </Typography>
                   </Card>
                 </Grid>
               );
