@@ -7,6 +7,7 @@ import {
   Typography,
   InputBase,
   Avatar,
+  Link,
 } from "@material-ui/core";
 
 import { makeStyles, fade } from "@material-ui/core/styles";
@@ -15,6 +16,9 @@ import SearchIcon from "@material-ui/icons/Search";
 
 import NavDrawer from "./drawer/NavDrawer";
 import logo from "../../media/Logo/logo.png";
+import CartIcon from "@material-ui/icons/ShoppingCartOutlined";
+import UserIcon from "@material-ui/icons/Person";
+import { Link as RouterLink } from "react-router-dom";
 
 const styles = makeStyles((theme) => ({
   root: {
@@ -103,10 +107,23 @@ const Header = (props) => {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            WE SELL STUFF
+            <Link
+              component={RouterLink}
+              underline="none"
+              color="inherit"
+              to="/"
+            >
+              WE SELL STUFF
+            </Link>
           </Typography>
           <Avatar src={logo} className={classes.logo} />
           <div style={{ display: "hidden", flexGrow: 1 }}></div>
+          <IconButton>
+            <UserIcon />
+          </IconButton>
+          <IconButton>
+            <CartIcon />
+          </IconButton>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
