@@ -55,7 +55,7 @@ const Featured = () => {
                   <Card raised>
                     <CardActionArea
                       component={RouterLink}
-                      to={`product/${item.id}`}
+                      to={`/product/${item.id}`}
                     >
                       <div
                         style={{
